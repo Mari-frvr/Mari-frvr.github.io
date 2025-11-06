@@ -7,3 +7,24 @@ p {
     background-color:#fafad0;
     color:rgb(68, 23, 23);
 }
+
+span {
+    font-weight: bold;
+}
+
+#s1 {
+    color: #459191;
+}
+
+#s2 {
+    color: orangered;
+}
+
+#s3 {
+    background-color: darkgoldenrod;
+    color: azure;
+}
+#s4 {
+    background-color: black;
+    color: azure;
+}
