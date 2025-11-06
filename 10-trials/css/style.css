@@ -6,7 +6,8 @@ body {
     color: green;
 }
 
-#t2-s1, #t2-s2 {
+#t2-s1,
+#t2-s2 {
     color: #F711F7;
 }
 #t3-s1 {
@@ -29,11 +30,13 @@ body {
     background-color: yellow;
 }
 
-#t6-s1, #t6-s2 {
+#t6-s1, 
+#t6-s2 {
     font-weight: bold;
 }
 
-#t7-s1, #t7-s3 {
+#t7-s1, 
+#t7-s3 {
     font-style: italic;
 }
 
@@ -41,7 +44,8 @@ body {
     font-weight: bold;
 }
 
-#t8-s1, #t8-s2 {
+#t8-s1, 
+#t8-s2 {
     text-decoration: underline;
 }
 
