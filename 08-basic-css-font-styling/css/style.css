@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: cursive;
+    font-style: italic;
+    font-size: 50px;
+    text-align: center;
+}
+
+span {
+    font-weight: bold;
+}
+
+#s1 {
+    color: #cf6843;
+}
+
+#s2 {
+    color: plum;
+}
+
+a {
+    color: #cf6843;
+    text-decoration: none;
+}
+/* 
+    You can also eliminate the underline by just typing none, you can also get
+    underline dotted, dashed, overline and underline at the same time.
+*/
