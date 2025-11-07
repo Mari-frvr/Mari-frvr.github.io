@@ -1,0 +1,35 @@
+.color-palette {
+    box-shadow: 6px 6px 12px #989898;
+    text-align: center;
+    margin: 24px; 
+    padding: 24px; 
+}
+#cp1-c1 {
+    background-color: #efd780;
+    color: #786728;
+}
+
+#cp1-c2 {
+    background-color: #c8ce72;
+    color: #646739;
+}
+
+#cp1-c3 {
+    background-color: #f38081;
+    color: #782a2b;
+}
+
+#cp1-c4 {
+    background-color: #f79977;
+    color: #673624;
+}
+
+#cp1-c5 {
+    background-color: #bdd8f1;
+    color: #325577;
+}
+
+.color {
+    margin: 0px; 
+    padding: 15px; 
+}
