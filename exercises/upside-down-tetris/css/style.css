@@ -1,0 +1,42 @@
+#container {
+    width: 500px;
+    min-height: 100vh;
+    background-color: #045664;
+    font-size: 0px;
+}
+
+.block {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background-color: #2cad43;
+    border-radius: 15px;
+    transform: scale(-0.95);
+}
+
+.yellow {
+    background-color: #fff28e;
+    border: 10px outset #ecec93;
+    height: 80px;
+    border-radius: 15px;
+    background: linear-gradient(45deg, rgb(237, 255, 145), #bcb648);
+}
+
+.green {
+    background-color: #2cad43;
+    border: 10px outset #4cdb66;
+    height: 80px;
+}
+
+.purple {
+    background-color: #6c26b2;
+    border: 10px outset #973ff0;
+    height: 80px;
+    background: linear-gradient(45deg, rgb(87, 16, 119), #9721ff);
+}
+
+.pink {
+    background-color: #ca6e95;
+    border: 10px outset #f586b4;
+    height: 80px;
+}
