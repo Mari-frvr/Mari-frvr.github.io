@@ -1,8 +1,8 @@
 .color-palette {
-    box-shadow: 6px 6px 12px #989898;
+    box-shadow: inset 6px 6px 12px #989898;
     text-align: center;
-    margin: 24px; 
-    padding: 24px; 
+    margin: 100px; 
+    padding: 24px;
 }
 #cp1-c1 {
     background-color: #efd780;
@@ -32,4 +32,39 @@
 .color {
     margin: 0px; 
     padding: 15px; 
+}
+
+#cp2-c1 {
+    background-color: #2d0378;
+    color: #ddc9ff;
+}
+
+#cp2-c2 {
+    background-color: #feeaa8;
+    color: #797b52;
+}
+
+#cp2-c3 {
+    background-color: #9fcae3;
+    color: #2e5882;
+}
+
+#cp3-c1 {
+    background-color: #53c07d;
+    color: #03451c;
+}
+
+#cp3-c2 {
+    background-color: #ffb5c4;
+    color: #84525c;
+}
+
+#cp3-c3 {
+    background-color: #fff5a9;
+    color: #736e4b;
+}
+
+#cp3-c4 {
+    background-color: #6d451c;
+    color: hwb(30 71% 0%);
 }
