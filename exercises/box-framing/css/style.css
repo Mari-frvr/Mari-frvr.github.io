@@ -1,0 +1,28 @@
+#bibble {
+    border: solid 20px brown;
+    background-color: #eeeeee;
+    padding: 20px;
+    margin: 30px;
+    box-shadow: inset 6px 6px 12px #989898;
+}
+
+#side-eye {
+    border: solid 20px rgb(42, 50, 165);
+    background-color: #eeeeee;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 50%;
+    width: 350px;
+    box-shadow: inset 6px 6px 12px #989898;
+}
+
+#text {
+    border: solid 10px brown;
+    background-color: #eeeeee;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 30px;
+    display: inline-block;
+    width: 200px;
+    box-shadow: inset 6px 6px 12px #989898;
+}
