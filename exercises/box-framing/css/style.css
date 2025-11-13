@@ -1,30 +1,52 @@
 #bibble {
-    border: solid 20px brown;
+    border: ridge 20px brown;
     background-color: #eeeeee;
-    padding: 20px;
-    margin: 30px;
+    padding: 30px;
+    margin: 100px;
     display: inline-block;
-    box-shadow: inset 6px 6px 12px #989898;
+    box-shadow: inset 0px 0px 16px 1px #1c1c1c;
+    box-shadow: -8px 8px 8px #202120;
+    width: 200px;
 }
 
 #side-eye {
     border: solid 20px rgb(42, 50, 165);
     background-color: #eeeeee;
-    padding: 20px;
-    margin: 30px;
+    padding: 25px;
+    margin: 20px;
     border-radius: 50%;
-    width: 350px;
+    width: 150px;
     display: inline-block;
-    box-shadow: inset 6px 6px 12px #989898;
+    box-shadow: inset 0px 0px 16px 1px #1c1c1c;
+    box-shadow: -8px 8px 8px #202120;
 }
 
 #text {
-    border: solid 10px brown;
+    background-color: pink;
+    padding: 15px;
+}
+
+#frame-3 {
+    border: ridge 20px brown;
     background-color: #eeeeee;
-    padding: 20px;
+    padding: 5px;
+    padding-bottom: 14px;
+    padding-left: 25px;
+    padding-right: 25px;
     margin: 30px;
-    border-radius: 30px;
+    border-radius: 10px;
+    background-color: #eeeeee;
     display: inline-block;
-    width: 200px;
-    box-shadow: inset 6px 6px 12px #989898;
+    width: 165px;
+    height: 100px;
+    box-shadow: inset 0px 0px 16px 1px #1c1c1c;
+    box-shadow: -8px 8px 8px #202120;
+}
+
+#bckg {
+    background-image: url("../images/wood.jpg");
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
