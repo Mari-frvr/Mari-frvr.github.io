@@ -1,0 +1,123 @@
+body {
+    background-color: beige;
+}
+
+div {
+    background-color: beige;
+}
+
+#morning {
+    background-color: #c3ad85;
+    border-radius: 15px;
+    padding: 5px 20px 0px 20px;
+}
+
+#morning ul {
+    background-color: #e7d1a9;
+    border-radius: 15px;
+    padding: 15px 20px 15px 40px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+#afternoon {
+    background-color: #90c289;
+    border-radius: 15px;
+    padding: 5px 20px 0px 20px;
+}
+
+#afternoon ul {
+    background-color: #bde1a9;
+    border-radius: 15px;
+    padding: 15px 20px 15px 40px;
+}
+
+#evening {
+    background-color: #7baac5;
+    border-radius: 15px;
+    padding: 5px 20px 0px 20px;
+}
+
+#evening ul {
+    background-color: #a9d0e1;
+    border-radius: 15px;
+    padding: 15px 20px 15px 40px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+#morning .completed.important {
+    box-shadow:
+        0px 0px 8px rgb(119, 104, 37),
+        inset 0px 0px 8px rgb(219, 236, 219);
+    border-radius: 5px;
+    padding: 4px;
+}
+
+#afternoon .completed.important {
+    box-shadow:
+        0px 0px 8px rgb(53, 125, 77),
+        inset 0px 0px 8px rgb(219, 236, 219);
+    border-radius: 5px;
+    padding: 4px;
+}
+
+#evening .completed.important {
+    box-shadow:
+        0px 0px 8px rgb(61, 83, 154),
+        inset 0px 0px 8px rgb(219, 236, 219);
+    border-radius: 5px;
+    padding: 4px;
+}
+
+#morning .important {
+    font-weight: bold;
+    color: #6f3c0a;
+}
+
+#afternoon .important {
+    font-weight: bold;
+    color: #095c21;
+}
+
+#evening .important {
+    font-weight: bold;
+    color: #1f0d92;
+}
+
+#evening .button {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: lighter;
+    background-color: #0e55c0;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: small;
+}
+
+#morning .button {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: lighter;
+    background-color: #71571f;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: small;
+}
+
+#afternoon .button {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: lighter;
+    background-color: #057309;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: small;
+}
