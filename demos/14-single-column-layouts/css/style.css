@@ -1,0 +1,91 @@
+/* 
+    These are resets -Start-
+    If you add a margin of 0px to the *,
+    it'll eliminate the default margin on everything
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+/* These are additional optional resets -Down Below- */
+img {
+    width: 100%;
+    object-fit: cover;
+}
+/* 
+    Fixes images so they don't come in at 800px and when 
+    you give them a height they don't get distorted! 
+*/
+/* For anchors to not have the underline & color blue! */
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+/* These are resets -End- */
+
+.light-container {
+    background-color: lavenderblush;
+    padding: 48px 0px;
+    color: #1a514a;
+}
+
+.dark-container {
+    background-color: #1a514a;
+    color: lavenderblush;
+    padding: 48px 0px;
+}
+
+/* 
+    To make a single column layout you must have a 
+    width value percentage of less than 100%.
+*/
+.single-column {
+    width: 50%;
+    max-width: 900px;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+    This is to make a right aligned single column
+    .single-column {
+        background-color: lavenderblush;
+        width: 50%;
+        max-width: 900px;
+        min-width: 500px;
+        margin-left: auto;
+    }
+*/
+
+/*
+    This is to make a left aligned single column
+    .single-column {
+        background-color: lavenderblush;
+        width: 50%;
+        max-width: 900px;
+        min-width: 500px;
+        margin-right: auto;
+    }
+*/
+
+/*
+    This is to make a center aligned single column
+    .single-column {
+        background-color: lavenderblush;
+        width: 50%;
+        max-width: 900px;
+        min-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    max-width and min-width should always be pixels,
+    unless there's a rare occasion.
+*/
