@@ -103,7 +103,9 @@ img {
 }
 
 #purpleb {
-    margin-bottom: -10px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
 }
 
 #lastb {
@@ -151,7 +153,8 @@ img {
 
 #first {
     background: linear-gradient(#f7d253 0%, #f7d253 15%, #fff29e 60%, #efc9ff 90%);
-    height: 1500px;
+    min-height: 100vh;
+    position: relative;
 }
 
 #first img {
