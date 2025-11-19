@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'briceb';
+    src: url('../fonts/brice-black.otf');
+}
+
+@font-face {
+    font-family: 'breg';
+    src: url('../fonts/brice-regular.otf');
+}
+
+@font-face {
+    font-family: 'bb';
+    src: url('../fonts/brice-bold.otf');
+}
+
+@font-face {
+    font-family: 'piedmont';
+    src: 
+        url('../fonts/piedmont-regular.otf') format('opentype'),
+        url('../fonts/piedmont-regular.ttf') format('truetype');
+}
+
+.pop {
+    font-family: "piedmont";
+}
+
+h1 {
+    font-family: "briceb";
+    margin: 0%;
+    text-align: center;
+    font-size: 70px;
+}
+
+a {
+    font-size: 30px;
+    font-family: "bb";
+    text-decoration: none;
+    color: #543063;
+    background-color: #ffffff;
+    padding: 15px 25px 18px 25px;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+h1.pop {
+    margin: -17px;
+}
+
+.purp {
+    color: #543063;
+}
+
+.pop.purp {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.yell {
+    color: #885122;
+}
+
+.pop.yell {
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+
+p {
+    font-family: "breg";
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.c {
+    background: linear-gradient(#c48dc7 0%, #c48dc7 15%, #efc9ff 60%, #efc9ff 90%);
+    /* background-color: #efc9ff; */
+    height: 800px;
+    margin: 0%;
+    margin-bottom: -20px;
+}
+
+#yellow {
+    background: linear-gradient(#f7d253 0%, #f7d253 15%, #fff29e 60%, #efc9ff 90%);
+    /* background-color: #efc9ff; */
+    height: 1100px;
+    margin: 0%;
+    margin-bottom: -20px;
+}
+
+#yellowb {
+    margin-bottom: -10px;
+}
+
+#purpleb {
+    margin-bottom: -10px;
+}
+
+#lastb {
+    margin-bottom: -80px;
+}
+
+.sc p {
+    font-size: 40px;
+    color: #543063;
+    text-align: center;
+}
+
+#collage {
+    background:
+        linear-gradient(90deg, #0000 53.5%, #f4cc45 47%),
+        url("../images/collage-pattern.png");
+    background-size: cover;
+    height: 860px;
+}
+
+#collage p {
+    display: inline-block;
+}
+
+#label {
+    width: 400px;
+    display: inline-block;
+    margin-right: 60%;
+    margin-left: 40%;
+    margin-top: 200px;
+}
+
+#collage a {
+    background-color: transparent;
+}
+
+.intro {
+    color: #543063;
+    font-size: 120px;
+}
+
+.pop.intro {
+    color: #ffffff;
+}
+
+#first {
+    background: linear-gradient(#f7d253 0%, #f7d253 15%, #fff29e 60%, #efc9ff 90%);
+    height: 1500px;
+}
+
+#first img {
+    margin-bottom: 0%;
+}
