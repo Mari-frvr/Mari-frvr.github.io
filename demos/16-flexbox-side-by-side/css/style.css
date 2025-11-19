@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    /* 
+    Makes sure width takes into account the padding and the border as well,
+    basically if you tell an element be 200px, it'll actually be 200px,
+    it won't add the margin, apdding, and borders to the final size and be
+    for example 275px.
+
+    * targets everything
+    */
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.single-column {
+    width: 90vw;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.card-container {
+    display: flex;
+    gap: 36px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #cf9cfc;
+    border: 5px solid #54148d;
+    color: #54148d;
+    /* pretty purple! #cf9cfc */
+    padding: 36px;
+    text-align: center;
+    margin: 36px 0px;
+    flex: 1;
+}
+
+.card h3 {
+    font-size: 36px;
+    margin: 0px;
+}
+
+.card p {
+    font-size: 24px;
+    margin: 24px 0px 0px;
+}
+
+.sbs {
+    display: flex;
+}
