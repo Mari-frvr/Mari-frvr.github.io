@@ -110,21 +110,20 @@ img {
     left: 0px;
 }
 
-#lastb {
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-}
-
 .sc p {
-    font-size: 40px;
+    font-size: 60px;
     color: #543063;
     text-align: center;
 }
 
 #collage .sc {
     position: absolute;
-    left: 50%;
+    left: 53%;
+    /* top: 10%; */
+    /* 
+        Top 10%, centers it vertically but makes it have a white border on 
+        the bottom.
+    */
     transform: translateX(-50%);
     height: 100%;
     display: flex;
@@ -133,9 +132,9 @@ img {
 
 #collage {
     background:
-        linear-gradient(90deg, #0000 50%, #f4cc45 50%),
-        url("../images/collage-pattern.png");
+        url("../images/finaleee.png");
     background-size: cover;
+    background-position: top center;
     height: 860px;
     position: relative;
 }
