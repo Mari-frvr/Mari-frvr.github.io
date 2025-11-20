@@ -22,6 +22,11 @@ img {
     padding-bottom: 30px;
 }
 
+#img-c img {
+    object-fit: cover;
+    height: 100%;
+}
+
 .tt-s {
     letter-spacing: 2px;
     font-size: 12px;
@@ -60,7 +65,42 @@ img {
     text-align: center;
 }
 
+.card {
+    flex: 1;
+}
+
+.card img {
+    height: 300px;
+}
+
 #card-s.sbs {
     gap: 10px;
     object-fit: cover;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.card a h2 {
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+#l {
+    position: absolute;
+    bottom: -100px;
+    left: 345px;
+    transform: translateX(50%);
+    width: 40px;
+}
+
+#r {
+    position: absolute;
+    bottom: -100px;
+    right: 385px;
+    transform: translateX(50%);
+    width: 40px;
 }
