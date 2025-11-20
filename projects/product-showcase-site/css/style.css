@@ -85,21 +85,23 @@ img {
 .c {
     background: linear-gradient(#c48dc7 0%, #c48dc7 15%, #efc9ff 60%, #efc9ff 90%);
     /* background-color: #efc9ff; */
-    height: 800px;
+    min-height: 800px;
     margin: 0%;
-    margin-bottom: -20px;
+    position: relative;
 }
 
 #yellow {
     background: linear-gradient(#f7d253 0%, #f7d253 15%, #fff29e 60%, #efc9ff 90%);
     /* background-color: #efc9ff; */
-    height: 1100px;
+    height: 1200px;
     margin: 0%;
-    margin-bottom: -20px;
+    position: relative;
 }
 
 #yellowb {
-    margin-bottom: -10px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
 }
 
 #purpleb {
@@ -109,7 +111,9 @@ img {
 }
 
 #lastb {
-    margin-bottom: -80px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
 }
 
 .sc p {
@@ -118,28 +122,45 @@ img {
     text-align: center;
 }
 
+#collage .sc {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
 #collage {
     background:
-        linear-gradient(90deg, #0000 53.5%, #f4cc45 47%),
+        linear-gradient(90deg, #0000 50%, #f4cc45 50%),
         url("../images/collage-pattern.png");
     background-size: cover;
     height: 860px;
-}
-
-#collage p {
-    display: inline-block;
+    position: relative;
 }
 
 #label {
     width: 400px;
     display: inline-block;
-    margin-right: 60%;
-    margin-left: 40%;
-    margin-top: 200px;
 }
 
 #collage a {
     background-color: transparent;
+    position: relative;
+}
+
+#collage a p {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 60px;
+    padding: 0px;
+    width: 500px;
 }
 
 .intro {
@@ -155,8 +176,14 @@ img {
     background: linear-gradient(#f7d253 0%, #f7d253 15%, #fff29e 60%, #efc9ff 90%);
     min-height: 100vh;
     position: relative;
+    height: auto;
+    padding-bottom: 150px;
 }
 
 #first img {
     margin-bottom: 0%;
+}
+
+#s2 {
+    padding: 150px;
 }
