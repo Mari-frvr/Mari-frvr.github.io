@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+/* 
+    Border-box makes it so that when giving a width, it takes into account the 
+    padding, margin, and border for the final width. SO if you tell your 
+    computer you want your width to be 400, with border-box on, it'll follow 
+    your instructions it won't turn out to be 544px.
+*/
+
+body {
+    font-family: sans-serif;
+    /* 
+        The sans-serif would be replaced with the client's body copy font.
+    */
+    margin: 0px;
+}
+
+img {
+    width: 100%;
+    /* 
+        Makes sure the image doesn't break out of the div when re-sized. 
+        Basically, so it stays contained.
+    */
+    object-fit: cover;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+}
+/* 
+    Sticky works best w top! For bottom use fixed!
+*/
+
+header #top-lvl {
+    background: linear-gradient(to bottom, green, #3e6d3e);
+    /* radial gradient uses from instead of to */
+    display: flex;
+    justify-content: space-between;
+    /* 
+        Justify-content works best when you want to center everything in you nav
+        menu, but here it's become obsolete in this set up. Or for the logo on
+        top and the nav menu beneath it.
+    */
+    align-items: center;
+}
+
+#top-lvl a,
+#bottom-lvl a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+nav #logo {
+    margin-right: auto;
+}
+
+nav #logo img {
+    width: 200px;
+}
+
+#top-lvl .btn {
+    background-color: white;
+    color: green;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+.container {
+    width: 80vw;
+    max-width: 800px;
+    margin: 48px auto;
+    font-size: 24px;
+    height: 200vh;
+}
+
+header #bottom-lvl {
+    background: linear-gradient(to bottom, yellowgreen, olive);
+    display: flex;
+    justify-content: space-between;
+}
