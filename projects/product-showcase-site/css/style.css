@@ -93,20 +93,20 @@ img {
 #yellow {
     background: linear-gradient(#f7d253 0%, #f7d253 15%, #fff29e 60%, #efc9ff 90%);
     /* background-color: #efc9ff; */
-    height: 1200px;
+    height: 1280px;
     margin: 0%;
     position: relative;
 }
 
 #yellowb {
     position: absolute;
-    bottom: 0px;
+    bottom: -5px;
     left: 0px;
 }
 
 #purpleb {
     position: absolute;
-    bottom: 0px;
+    bottom: -5px;
     left: 0px;
 }
 
@@ -184,5 +184,5 @@ img {
 }
 
 #s2 {
-    padding: 150px;
+    padding-bottom: 150px;
 }
