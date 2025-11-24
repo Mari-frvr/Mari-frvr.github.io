@@ -83,7 +83,8 @@ img {
 }
 
 .c {
-    background: linear-gradient(#c48dc7 0%, #c48dc7 15%, #efc9ff 60%, #efc9ff 90%);
+    background: 
+        linear-gradient(#c48dc7 0%, #c48dc7 15%, #efc9ff 60%, #efc9ff 90%);
     /* background-color: #efc9ff; */
     min-height: 800px;
     margin: 0%;
@@ -91,7 +92,8 @@ img {
 }
 
 #yellow {
-    background: linear-gradient(#f7d253 0%, #f7d253 15%, #fff29e 60%, #efc9ff 90%);
+    background: 
+        linear-gradient(#f7d253 0%, #f7d253 15%, #fff29e 60%, #efc9ff 90%);
     /* background-color: #efc9ff; */
     height: 1280px;
     margin: 0%;
@@ -172,7 +174,8 @@ img {
 }
 
 #first {
-    background: linear-gradient(#f7d253 0%, #f7d253 15%, #fff29e 60%, #efc9ff 90%);
+    background: 
+        linear-gradient(#f7d253 0%, #f7d253 15%, #fff29e 60%, #efc9ff 90%);
     min-height: 100vh;
     position: relative;
     height: auto;
