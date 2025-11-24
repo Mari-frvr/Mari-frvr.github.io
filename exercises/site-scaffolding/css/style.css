@@ -17,6 +17,7 @@
     font-size: 40px;
     text-align: center;
     color: #e95869;
+    text-decoration: underline solid #e95869;
 }
 
 #top-logo {
@@ -25,6 +26,7 @@
     text-align: center;
     font-size: 40px;
     color: #f3818e;
+    text-decoration: underline solid #e95869;
 }
 
 * {
@@ -42,7 +44,7 @@ header {
 }
 
 header nav {
-    background: linear-gradient(to bottom, #ffdb67, #f8ff9c);
+    background: linear-gradient(to bottom, #ffdf8d, #f8ff9c);
     /* radial gradient uses from instead of to */
     display: flex;
     justify-content: center;
@@ -50,27 +52,16 @@ header nav {
     gap: 30px;
 }
 
-#logo {
-    color: #e95869;
-}
-
-#top-lvl a {
+nav a {
     text-decoration: none;
-    color: white;
+    color: #e95869;
     padding: 24px;
-}
-
-nav #logo {
-    margin-right: auto;
-}
-
-nav #logo img {
-    width: 200px;
+    font-family: "briceb";
 }
 
 nav .btn {
-    background-color: white;
-    color: green;
+    background-color: #e95869;
+    color: #ffffff;
     border-radius: 36px;
     padding: 16px 24px;
     font-size: 20px;
@@ -78,4 +69,11 @@ nav .btn {
     min-width: 150px;
     text-align: center;
     margin-right: 24px;
+    font-family: "briceb";
+    letter-spacing: 2px;
+}
+
+body h1 {
+    text-align: center;
+    margin-top: 30px;
 }
