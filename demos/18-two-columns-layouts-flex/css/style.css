@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.two-col {
+    display: flex;
+    width: 90vw;
+    max-width: 1280px;
+    margin: 0px auto;
+    /* 
+        W/ these values, you're making the two column layout be inside of a 
+        single column layout without touching the html.
+     */
+}
+
+#sidebar {
+    width: 250px;
+    /* 
+        By removing the flex and giving it a width instead, it forces the 
+        sidebar to not grow past that size, making only the main content grow
+        w the screen.
+    */
+    order: 2;
+    padding-left: 20px;
+}
+
+#main {
+    flex: 3;
+    order: 1;
+    /* 
+        Order re-arranges the order visually but it doesn't transmit the change
+        to the html. Because of this, screen readers will read it in the order
+        it's found in the html. Even though visually it appears in a different
+        order. Sometimes, we don't want a screen reader to go through the whole 
+        article to know what other articles are available, but aesthetically,
+        you don't want the sidebar to be on the left.
+    */
+    padding-right: 20px;
+}
+
+#sidebar h2 {
+    background-color: #95e0f7;
+    color: #37839a;
+    padding: 10px 20px;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-bottom: -10px;
+    border: 4px solid #000000;
+    border-image: linear-gradient(90deg, #95e0f7, #056d79) 1;
+}
+
+#sidebar ul {
+    color: #95e0f7;
+    background-color: #37839a;
+    list-style-type: square;
+    padding: 15px 22px;
+    border: 4px solid #000000;
+    border-image: linear-gradient(90deg, #95e0f7, #056d79) 1;
+}
+
+#sidebar li {
+    border-bottom: 0.5px solid;
+    margin: 20px;
+    padding: 20px 0px;
+}
+
+#sidebar a {
+    text-decoration: none;
+    color: #95e0f7;
+}
+
+#main h1 {
+    background-color: #95e0f7;
+    color: #37839a;
+    padding: 10px 20px;
+    margin-top: 30px;
+    font-size: 30px;
+    margin-bottom: -10px;
+    border: 4px solid #000000;
+    border-image: linear-gradient(90deg, #95e0f7, #056d79) 1;
+}
+
+#main h3 {
+    background-color: #95e0f7;
+    color: #37839a;
+    padding: 10px 20px;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-bottom: -10px;
+    border: 4px solid #000000;
+    border-image: linear-gradient(90deg, #95e0f7, #056d79) 1;
+}
+
+#main p {
+    color: #95e0f7;
+    background-color: #37839a;
+    padding: 15px 22px;
+    margin-top: 15px;
+    border: 4px solid #000000;
+    border-image: linear-gradient(90deg, #95e0f7, #056d79) 1;
+}
