@@ -119,13 +119,13 @@ img {
 #collage .sc {
     position: absolute;
     left: 53%;
-    /* top: 10%; */
+    top: 35%;
     /* 
         Top 10%, centers it vertically but makes it have a white border on 
         the bottom.
     */
     transform: translateX(-50%);
-    height: 100%;
+    /* height: 100%; */
     display: flex;
     align-items: center;
 }
