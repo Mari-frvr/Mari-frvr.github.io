@@ -5,6 +5,8 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: #012919;
+    background: linear-gradient(#012919, #02150a);
 }
 
 img {
@@ -19,19 +21,16 @@ a {
 }
 
 #container {
-    background-color: #012919;
-    background: linear-gradient(#012919, #02150a);
     color: lavenderblush;
     padding: 48px 0px;
+    width: 75%;
+    margin: 0px auto;
     display: flex;
+    justify-content: center;
+    gap: 50px;
 }
 
 #main {
-    width: 50%;
-    max-width: 900px;
-    min-width: 500px;
-    margin-left: 200px;
-    margin-right: 80px;
     padding: 60px;
     background-color: #c19d71;
     border: #9a7446 ridge 30px;
@@ -83,5 +82,4 @@ a {
 #sidebar {
     order: 2;
     width: 210px;
-    margin-right: 200px;
 }
