@@ -5,7 +5,6 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-color: #f7f9fb;
 }
 
 #layout {
@@ -25,9 +24,15 @@ header {
     margin-bottom: 36px;
 }
 
-header span {
-    font-size: 40px;
+nav h1 {
+    font-size: 50px;
     font-weight: bold;
+    padding: 15px;
+}
+
+nav h1 span {
+    display: inline-block;
+    margin: 0px;
 }
 
 #m {
@@ -74,12 +79,13 @@ img {
 }
 
 #fimage img {
-    width: 600px;
+    width: 800px;
     height: 100%;
+    display: inline-block;
 }
 
 #fimage {
-    flex: 2;
+    flex: 1;
 }
 
 #product-info {
