@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+#centered-hero {
+    background-image: url("../images/stars-on-velvet.jpg");
+    background-size: cover;
+    /* 
+        If you put a % the img will repeat itself, cover makes it fit like a 
+        pic frame. And contain forces it to fit into the container 
+        non-proportionately.
+    */
+    background-position: center;
+    /* 
+        if you add left and right it'll only work on landscape, mooves the 
+        position of the image to focus on the specific size.
+    */
+    height: 100vh;
+    display: flex;
+    /* 
+        we applied this to the container the div holding the h1 a p is in bc
+        we don't want to mess w their layout, so since their div becomes a flex 
+        item it gets moved but it's contents don't get messed w.
+    */
+    align-items: center;
+    justify-content: center;
+}
+
+#centered-hero .hero-content {
+    color: #ffffff;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 72px;
+    margin: 0px;
+}
+
+.hero-content p {
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+#side-hero {
+    background-image: url("../images/lonely-ocean.jpg");
+    background-size: cover;
+    background-position: center right;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    /* 
+        flex-end moves content to the right, flex-start moves it to the left.
+    */
+    align-items: center;
+    padding-right: 10%;
+}
+
+#contrast-hero {
+    background-image: url("../images/placid-waters.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* 
+        this makes it cool and move when you scroll like in wordpress!
+    */
+    height: 100vh;
+    display: flex;
+    /* 
+        position also works it'd just be harder to make it responsive.
+    */
+    justify-content: center;
+    align-items: center;
+    /* 
+        if both values were flex-end for align-items and justify-content, 
+        it would end up on the bottom right because align-items works
+        on the opposite of jc which is horixontal by defauly so it's on the y
+        axis aka vertical, and the end of it would be the bottom, and since jc
+        is horizontal, the end of it would be on the right.
+
+        And!! Since this is the container div and it's really big 
+        (the size of the image) putting a bckg color on it would put it behind 
+        the image not on the child (h1 + p)
+    */
+}
+
+#contrast-hero .hero-content {
+    background-color: #ffffff55;
+    backdrop-filter: blur(10px) saturate(300%);
+    /* 
+        if you add 55 or ff at the end of a hex code it makes it transparent.
+
+        To get a blur you have to use backdrop-filter, there's saturate,
+        grayscale, anddd blur (0px) for example 10px is noicee
+        blur(10px) saturate(300%) looks like liquid glass!
+
+        The color has to be transparent.
+    */
+    padding: 50px;
+    text-align: center;
+    border-radius: 50px;
+}
