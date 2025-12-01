@@ -10,12 +10,6 @@ body {
 #layout {
     display: flex;
     flex-wrap: wrap;
-    /* padding: 48px 0px;
-    width: 75%;
-    margin: 0px auto;
-    display: flex;
-    justify-content: center;
-    gap: 50px; */
 }
 
 header {
@@ -52,7 +46,7 @@ nav h1 span {
 }
 
 #y {
-   color: #85b716;
+    color: #85b716;
 }
 
 #thumbnail {
