@@ -21,12 +21,8 @@ header {
 nav h1 {
     font-size: 50px;
     font-weight: bold;
-    padding: 15px;
-}
-
-nav h1 span {
-    display: inline-block;
-    margin: 0px;
+    display: flex;
+    justify-content: center;
 }
 
 #m {
