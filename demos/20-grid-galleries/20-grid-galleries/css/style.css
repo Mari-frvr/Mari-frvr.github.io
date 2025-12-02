@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+/* 
+    Very important reset for this demo, without it, we'd have to apply a width 
+    to all images. Remember it means, width 100% of their container not the 
+    height, object-fit cover, makes them fit proportionatelyinto their 
+    container.
+*/
+
+#layout {
+    width: 90%;
+    max-width: 900px;
+    margin: 0px auto;
+}
+
+.basic-grid-gallery {
+    display: grid;
+    /* 
+        Nothing will change visually unless you add more grid properties.
+        This is bc it automatically puts things in one column.
+    */
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    /* 
+        Gaps can have 2 values, first is row, second is columns. 
+        You could also do img:nth-child(2) or whatever number your child is
+        to target it, so you don't have to add an id to each img!!
+        You can also use nth-of-type(2) for example.
+    */
+    border: 10px solid #333;
+    padding: 24px;
+}
+
+.cropped-grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 200px;
+    gap: 25px;
+    border: 10px solid #333;
+    padding: 24px;
+}
+
+.cropped-grid-gallery img {
+    height: 100%;
+}
+
+/* 
+    You have to add a height to the images, because auto-rows only
+    adjusts the height of the rows not of the content inside of them.
+    SO you can fix it by targeting the images to be 100% the height of their
+    container.
+*/

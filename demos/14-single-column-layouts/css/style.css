@@ -47,9 +47,16 @@ a {
     width value percentage of less than 100%.
 */
 .single-column {
-    width: 50%;
+    width: 50%; 
+    /* 
+        Not practical, will be half the screen of any device. 70-90% is 
+        practical.
+    */
     max-width: 900px;
     min-width: 500px;
+    /* 
+        Min-width isn't practical, some screens are really small.
+    */
     margin-left: auto;
     margin-right: auto;
 }

@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+#layout {
+    width: 90%;
+    max-width: 900px;
+    margin: 0px auto;
+}
+
+.horizontal-masonry-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.horizontal-masonry-gallery img {
+    height: 250px;
+    flex: 1;
+    /* 
+        They have different widths that are flexible but w the same height!
+        Love it, this is a masonry gallery layout! The key properties are
+        flex-wrap: wrap and flex: 1
+    */
+}
+
+.vertical-masonry-gallery {
+    columns: 3 auto;
+    /* 
+        The number of columns, and the width.
+    */
+    column-gap: 15px;
+}
+
+.vertical-masonry-gallery img {
+    margin-bottom: 15px;
+}
