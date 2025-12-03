@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+nav {
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.layout {
+    max-width: 800px;
+    width: 90%;
+    margin: 48px auto;
+}
+
+.layout h1 {
+    font-size: 64px;
+    text-align: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+/* 
+    media queries MUST remain at the bottom of the css file. 
+    Bc we want all of our base styles to apply normally and then have the
+    media query override them. The media query is like a mini css style sheet
+    inside the css sheet. Only when something is being added or changed, is when
+    it should be written in the media query. Put the one w the smallest 
+    max-width on the bottom so it can override the bigger ones. If you're 
+    overriding something, make sure you write the same rule (.layout h1 for ex)
+    law of specificity still works here.
+*/
+
+@media screen and (max-width: 660px) {
+    .layout h1 {
+        font-size: 44px;
+    }
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+}
